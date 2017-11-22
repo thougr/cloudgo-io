@@ -1,0 +1,29 @@
+
+
+
+<html>
+    <head>
+      <link rel="stylesheet" href="css/main.css"/>
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+       <script src="hello.js"></script>
+    </head>
+    <body>
+          <div>
+              <img src="images/panda.jpeg" height="640" width="800" >
+              <p class="title">{{.Title}}</p>
+              
+          </div>
+
+        <form action="/table" method="post">
+         Name: &nbsp&nbsp&nbsp<input type="text" value="" name="name"><br><br>
+         Sex:
+                    <input type="radio" name="sex" value="1">Male
+                    <input type="radio" name="sex" value="2">Female<br><br> 
+         Address:&nbsp <input type="text" name="addr"><br><br> 
+         Phone: &nbsp&nbsp&nbsp <input type="text" name="phone"><br><br> 
+         Email: &nbsp&nbsp&nbsp &nbsp<input type="text" name="email"><br><br>   
+         <input type="submit" value="Submit">     
+        </form>
+
+    </body>
+</html>
